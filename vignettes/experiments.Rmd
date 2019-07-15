@@ -1,0 +1,25 @@
+---
+title: "Experiments"
+author: "Stuart R. Jefferys"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Experiments}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Exploring the Bioconductor representation of experiments. An experiments is a single object that contains results from one or more feature X sample experiments, along with metadata about the features, the samples, and the experiment or experiment set.
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Sesssion Information
+
+```{r}
+sessionInfo()
+```

@@ -1,0 +1,14 @@
+inst/doc
+
+# RStudio
+.Rproj.user
+.Ruserdata
+
+# R
+.Rhistory
+.RData
+
+# Vignettes
+vignettes/*.html
+vignettes/*.R
+

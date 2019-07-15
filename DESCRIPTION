@@ -1,0 +1,22 @@
+Package: BioconductorPlay
+Title: Exploring the Bioconductor universe
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Stuart",
+           family = "Jefferys",
+           role = c("aut", "cre"),
+           email = "srjefferyst@gmail.com")
+Description: Exploring the Bioconductor universe, its representations of data,
+    and its methodologies. Mostly consists of vignettes exploring various
+    aspects of Bioconductor, plus potentially some code and data to use in
+    those vignettes, or code to download data for big things.This is just for
+    my personal benefit. If you find it useful, great. Note: It may change or
+    disappear without notice.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
